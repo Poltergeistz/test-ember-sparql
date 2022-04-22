@@ -2,6 +2,8 @@
 <button {{on "click" this.loadDecrees}}>Load decrees</button>
 {{#each this.decrees as |decree|}}
 <article>
-  <p>{{decree}}</p>
+  <ul>
+  <li>{{decree}}</li>
+  </ul>
 </article>
 {{/each}}
