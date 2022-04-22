@@ -1,0 +1,7 @@
+<h2>Please click on the load button</h2>
+<button {{on "click" this.loadDecrees}}>Load decrees</button>
+{{#each this.decrees as |decree|}}
+<article>
+  <p>{{decree}}</p>
+</article>
+{{/each}}
